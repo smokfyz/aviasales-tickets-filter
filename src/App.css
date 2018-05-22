@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(243, 247, 250);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  flex-grow: 1;
+  background-color: rgb(243, 247, 250);
+  height: 160px;
+  padding: 20px;
+  color: white;
+}
+
+.Filtered-list {
+  display: inherit;
+  justify-content: center;
+}

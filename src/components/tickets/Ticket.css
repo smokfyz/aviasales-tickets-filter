@@ -1,0 +1,79 @@
+.Ticket {
+  display: inherit;
+  width: 566px;
+  height: 161px;
+  background: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px 1px rgb(230, 230, 230);
+}
+
+.Buy {
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100%;
+  border-right: 1px solid rgb(230, 230, 230);
+}
+
+.Company-logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.Button {
+  background: rgb(255, 109, 0);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0;
+  border-bottom: 1px solid rgb(214, 77, 8);
+  border-radius: 4px;
+  width: 160px;
+  height: 57px;
+}
+
+.Button:active {
+  background: rgb(255, 129, 36);
+  border-bottom: 1px solid rgb(247, 102, 29);
+  padding: 0;
+}
+
+.Button::-moz-focus-inner {
+  border: 0;
+}
+
+.Arrive, .Departure, .Stops {
+  font-family: 'Lato', sans-serif;
+  color: rgb(74, 74, 74);
+  display: inherit;
+  width: 33.3%;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.Info {
+  display: inherit;
+  flex-shrink: 0;
+  flex-grow: 1;
+  margin-top: 25px;
+}
+
+.Time {
+  font-size: 30px;
+}
+
+.Place {
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+.Date {
+  font-size: 12px;
+  color: rgb(150, 150, 150);
+  margin-top: 3px;
+}

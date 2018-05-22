@@ -1,0 +1,4 @@
+.TicketsList {
+  display: inherit;
+  flex-direction: column;
+}
