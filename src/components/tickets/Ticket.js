@@ -21,7 +21,7 @@ class Ticket extends Component {
             <div className="Date">{arrival_date}</div>
           </div>
           <div className="Stops">
-            <div className="Stops-num">{stops}</div>
+            <div className="Stops-num">{stops + " "} ПЕРЕСАДКИ</div>
             <div className="Plane"></div>
           </div>
           <div className="Departure">
